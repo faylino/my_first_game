@@ -1,0 +1,55 @@
+/* Global Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0d1b2a; /* Dark background for the body */
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden; /* Hide overflowed content */
+}
+
+header {
+    background-color: #1c2833;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Game Canvas */
+#gameCanvas {
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /* Adding a space-like background with radial gradient */
+    border: 2px solid #f39c12;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Controls */
+#gameControls {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
+
+/* Scoreboard */
+#scoreboard {
+    margin-top: 20px;
+}
